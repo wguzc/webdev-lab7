@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    <fieldset id="contact-fieldset">
+        <legend>Contact details</legend>
+
+        <label for="name">Your First and Last Name:</label><br />
+        <input type="text" id="name" name="name" size="15" maxlength="50" required="required" /><br />
+
+        <label for="email">Your email:</label><br />
+        <input type="text" id="email" name="email" size="15" maxlength="50" /><br />
+
+        <p>Please select reason for reaching out:</p>
+        <label><input type="checkbox" id="business" name="service" value="business" /> Business Reason</label>
+        <label><input type="checkbox" id="work" name="service" value="work" /> Work Reason</label>
+        <label><input type="checkbox" id="personal" name="service" value="personal" /> Personal</label>
+
+        <form action="./save_contact.php">
+            <p>Please provide a brief summary of what you would like to discuss?</p>
+            <textarea id="comments" name="comments" cols="20" rows="4">Enter your comments...</textarea>
+        </form>
+
+        <form action="./save_contact.php">
+            <p>Submit your contact request</p>
+            <input type="submit" value="Submit" id="submit-button" />
+        </form>
+    </fieldset>
+</body>
+</html>

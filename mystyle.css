@@ -1,0 +1,41 @@
+/* mystyle.css */
+
+/* Set the foreground and background color of all paragraph elements */
+p {
+    color: #ffffff; /* Foreground color */
+    background-color: #784B84; /* Background color */
+}
+
+/* Set the height and width of your image using CSS only (remove any HTML attributes) */
+img {
+    height: 200px;
+    width: 300px;
+}
+
+/* Set the border color, style, width, and radius of at least one element */
+fieldset {
+    border: 2px solid #784B84; /* Border color and width */
+    border-radius: 10px; /* Border radius */
+    border-style: dashed; /* Border style */
+}
+
+/* Apply at least two additional CSS rules of your choice to your lists */
+ul {
+    list-style-type: square; /* Custom list style */
+    margin-left: 20px; /* Indent the list */
+}
+
+ol {
+    list-style-type: decimal; /* Custom list style */
+    margin-left: 20px; /* Indent the list */
+}
+
+/* Set the CSS properties for your links for a:link, a:hover, and a:visited */
+a:link {
+    color: #0077b6; /* Link color for unvisited links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color:
+}
