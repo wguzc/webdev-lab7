@@ -37,5 +37,34 @@ a:link {
 }
 
 a:hover {
-    color:
+    color: #ff6b6b; /* Link color on hover (change to your preferred color) */
+}
+
+/* Style for the Lab links */
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #784B84;
+    padding: 8px;
+}
+
+table th {
+    background-color: #784B84;
+    color: #ffffff;
+}
+
+/* Style for the Lab #1 content */
+#page-title {
+    background-color: #0077b6;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.page-description {
+    font-style: italic;
+    margin-top: -20px;
+    padding: 10px;
 }
